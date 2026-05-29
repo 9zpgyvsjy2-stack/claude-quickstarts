@@ -88,12 +88,8 @@ const TopNavBar = () => {
   return (
     <nav className="text-foreground p-4 flex justify-between items-center">
       <div className="font-bold text-xl flex gap-2 items-center">
-        <Image
-          src={theme === "dark" ? "/wordmark-dark.svg" : "/wordmark.svg"}
-          alt="Company Wordmark"
-          width={112}
-          height={20}
-        />
+        <img src="https://todesfall-kompass.de/assets/logo-CC3net4E.png" alt="Todesfall-Kompass" style={{ height: "32px", width: "auto" }} />
+        <span style={{ fontWeight: 600, fontSize: "18px" }}>Todesfall-Kompass</span>
       </div>
       <div className="flex items-center gap-2">
         <DropdownMenu>
@@ -139,7 +135,7 @@ const TopNavBar = () => {
           </DropdownMenuContent>
         </DropdownMenu>
         <Link
-          href="https://github.com/anthropics/anthropic-quickstarts"
+          href="https://todesfall-kompass.de"
           target="_blank"
           rel="noopener noreferrer"
         >
